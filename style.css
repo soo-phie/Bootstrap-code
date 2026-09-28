@@ -1,0 +1,143 @@
+ :root {
+     --red: #c62828;
+     --red-dark: #a51f1f;
+     --olive: #3f4a2b;
+     --ember: #d8622b;
+     --butter: #f3e3b3;
+     --paper: #fbf7ef;
+     --ink: #2a2a24;
+ }
+
+ html {
+     scroll-behavior: smooth;
+     scroll-padding-top: 80px;
+
+ }
+
+ body {
+     font-family: 'DM Sans', sans-serif;
+     color: var(--ink);
+     background: var(--paper);
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ .navbar-brand {
+     font-family: 'Fraunces', serif;
+ }
+
+ #mainNav {
+     background: var(--red);
+     padding: 0.4rem 0;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+ }
+
+ .brand-logo {
+     height: 48px;
+     width: auto;
+     background: #fff;
+     padding: 4px 14px;
+     border-radius: 50px;
+ }
+
+ #mainNav .nav-link {
+     color: #fff;
+     margin-left: 1rem;
+     font-weight: 500;
+ }
+
+ #mainNav .nav-link:hover,
+ #mainNav .nav-link:focus {
+     color: #ffd9d9;
+ }
+
+ .navbar-toggler {
+     border-color: #fff;
+ }
+
+ .navbar-toggler-icon {
+     filter: invert(1);
+ }
+
+ .hero {
+     min-height: 100vh;
+     color: #fff;
+     padding-top: 70px;
+     background:
+         linear-gradient(rgba(30, 30, 20, 0.55), rgba(30, 30, 20, 0.55)),
+         url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600&q=80') center/cover no-repeat;
+ }
+
+ .hero h1 {
+     max-width: 700px;
+     margin: 0 auto 1rem;
+ }
+
+ .hero .lead {
+     max-width: 520px;
+     margin: 0 auto 1.5rem;
+ }
+
+ .btn-ember {
+     background: var(--ember);
+     border-color: var(--ember);
+     color: #fff;
+     border-radius: 50px;
+     padding: 0.6rem 1.8rem;
+ }
+
+ .btn-ember:hover {
+     background: #b84e1f;
+     border-color: #b84e1f;
+     color: #fff;
+ }
+
+ .section-title {
+     color: var(--olive);
+     margin-bottom: 0.5rem;
+ }
+
+ .about-bg {
+     background: var(--butter);
+ }
+
+ .menu-item {
+     background: #fff;
+     border-radius: 16px;
+     overflow: hidden;
+     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+ }
+
+ .menu-item img {
+     width: 100%;
+     height: 220px;
+     object-fit: cover;
+ }
+
+ .price {
+     color: var(--ember);
+     font-weight: 700;
+     font-size: 1.1rem;
+ }
+
+ .form-control:focus {
+     border-color: var(--ember);
+     box-shadow: 0 0 0 0.2rem rgba(216, 98, 43, 0.2);
+ }
+
+ footer {
+     background: var(--red);
+     color: #fff;
+ }
+
+ footer a {
+     color: #fff;
+     font-size: 1.3rem;
+     margin: 0 0.5rem;
+ }
+
+ footer a:hover {
+     color: #ffd9d9;
+ }
